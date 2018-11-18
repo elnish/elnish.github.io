@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+  width: 1600px;
+}
+
+body {
+  font: 16px Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+/*header*/
+#header {
+  border-top: 10px solid #2ecc71;
+  background: url(img/header_bg.jpg) no-repeat;
+  height: 600px;
+}
+
+#header .container {
+  height: 460px;
+  margin: 0;
+  position: absolute;
+  top: 160px;
+  left: 330px;
+}
+
+.logo {
+  font-family: Pacifico;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.logo::after {
+  content: ".";
+  color: #2ecc71;
+}
+
+#header h3 {
+  font-family: HelveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  margin: 60px 0 25px 0;
+}
+
+.os-iteams {
+  padding: 0;
+}
+
+.os-iteam {
+  height:53px;
+  width: 53px;
+  margin-right: 18px;
+  border-radius: 50%;
+  background-color: #030303;
+  opacity: 0.65;
+}
+
+.os-iteam:hover,
+.service-icon,
+.social-iteam:hover {
+  background-color: #2ecc71;
+}
+
+.os-iteam img,
+.service-icon img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 13px;
+}
+/*Main content*/
+#services {
+  height: 335px;
+  width: 100%;
+}
+
+.service-iteam {
+ width: 300px;
+ display: inline-block;
+ padding-top: 60px;
+ padding-left: 115px;
+}
+
+.service-iteam:first-child {
+  margin-left: 100px;
+}
+
+.service-icon {
+  height: 98px;
+  width: 98px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.service-icon img {
+  padding-top: 25px;
+}
+
+.service-icon img:hover {
+  transform: scale(1.2);
+}
+
+#services h5,
+#notified h5,
+.get-in-tought h5 {
+  font-family: Raleway;
+  color:  #222222;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#services p,
+#notified p,
+.get-in-tought p,
+#footer a {
+  color:  #848484;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+#notified {
+  height: 427px;
+  background-color: #e3e3e3;
+  margin: 0;
+  padding: 0;
+}
+
+.email-form {
+  width: 500px;
+  float:left;
+  padding: 0;
+  margin: 60px 200px 60px 200px;
+}
+
+#notified h5,
+#notified p {
+  text-align: left;
+}
+
+.email {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:  #c8c8c8;
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  width: 300px;
+  height: 56px;
+  font-family: HelveticaNeue;
+  color:  #848484;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  padding-left: 27px;
+  display: block;
+  margin-left: -210px;
+  margin-top: -60px;
+}
+
+.notify-btn {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color:  #2ecc71;
+  width: 141px;
+  height: 56px;
+  font-family: Raleway;
+  color:  #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  display: block;
+  margin-left: 80px;
+  margin-top: -56px;
+  cursor: pointer;
+}
+
+video {
+  border-radius: 15px;
+  float: left;
+  padding-right: 180px;
+  padding-top: 60px;
+}
+
+#in-tought {
+  height: 465px;
+}
+
+blockquote {
+  width: 830px;
+  padding-top: 10px;
+  color:  #848484;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+cite {
+  font-family: Raleway;
+  color:  #2e2e2e;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.social {
+  margin-left: 595px;
+}
+
+.social-iteam {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #c5c5c5;
+  float: left;
+  margin: 10px;
+}
+
+.social-iteam img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.social-iteam img:first-child {
+  padding-top: 10px;
+}
+
+.people {
+  width: 1290px;
+  height: 70px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.people-list img {
+  height: 50px;
+  width: 50px;
+}
+
+.people-list img:hover {
+  filter: hue-rotate(70deg);
+}
+/*Footer*/
+#footer {
+  height: 130px;
+  background-color: #e3e3e3;
+}
+
+.footer-nav {
+  padding-top: 60px;
+  margin-left: 550px
+}
+
+.footer-nav a {
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+ #footer a:hover {
+  color: #2ecc71;
+}
